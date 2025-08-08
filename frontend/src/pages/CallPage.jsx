@@ -19,7 +19,7 @@ import "@stream-io/video-react-sdk/dist/css/styles.css";
 import toast from "react-hot-toast";
 import PageLoader from "../components/PageLoader";
 
-const STREAM_API_KEY = import.meta.env.VITE_STREAM_API_KEY;
+const STREAM_API_KEY = import.meta.env.VITE_STREAM_API_KEY || "cby9b6rn2snb";
 
 const CallPage = () => {
   const { id: callId } = useParams();
